@@ -1,81 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
-body
-{
-    background-color: antiquewhite;
-}
-
-*
-{
-    margin: 0;
-    padding: 0;
+body {
+  background-color: antiquewhite;
 }
 
-nav
-{
-    font-family: 'Ubuntu',sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-nav ul
-{
-    display: flex;
-    list-style-type: none;
-    height: 65px;
-    align-items: center;
-    background-color: black;
-    color: white;
+nav {
+  font-family: "Ubuntu", sans-serif;
 }
 
-nav ul li
-{
-    padding: 0 12px;
-}
-.brand img 
-{
-    padding: 0 8px;
-    width: 45px;
-}
-
-.brand
-{
-    display: flex;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 1.3rem;
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 65px;
+  align-items: center;
+  background-color: black;
+  color: white;
 }
 
-.container
-{
-    min-height: 75vh;
-    background-color: black;
-    color: white;
-    font-family: 'Varela Round', sans-serif;
+nav ul li {
+  padding: 0 12px;
+}
+.brand img {
+  padding: 0 8px;
+  width: 45px;
 }
 
-.bottom
-{
-    position: sticky;
-    height: 100px;
-    background-color: black;
-    bottom: 0;
-    display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
 }
 
-.icons
-{
-    margin-top: 14px;
+.container {
+  min-height: 75vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
 }
 
-.icons i
-{
-    cursor: pointer;
+.bottom {
+  position: sticky;
+  height: 100px;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-#myProgressBar
-{
-    width: 80vw;
+
+.icons {
+  margin-top: 14px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+#myProgressBar {
+  width: 80vw;
 }
